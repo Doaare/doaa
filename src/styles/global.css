@@ -264,7 +264,7 @@ p{margin:0 0 18px}
 @media (min-width:800px){
   .patent-title{white-space:nowrap}
 }
-.patent-lede{font-size:20px;line-height:1.58;color:#B9CADD;max-width:56ch;margin:0 0 34px}
+.patent-lede{font-size:20px;line-height:1.58;color:#B9CADD;max-width:none;margin:0 0 34px}
 .patent-meta{
   display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,240px));gap:22px 46px;
   border-top:1px solid rgba(255,255,255,.16);padding-top:26px;
@@ -328,6 +328,13 @@ footer .mono{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;text-
 }
 .edu-subhead{margin-top:44px}
 .lede-gap{margin-bottom:34px}
+.lede-wide{max-width:none}
+
+/* Section intros the design sets on a single line. Each runs a little wider
+   than the 968px text column, so nowrap only kicks in once the viewport is
+   wide enough to show the whole line; narrower screens wrap as before. */
+@media (min-width:1060px){.patent-lede{white-space:nowrap}}
+@media (min-width:1130px){.lede-wide{white-space:nowrap}}
 .lede-gap-sm{margin-bottom:30px}
 .pubs-note{margin-top:26px;font-size:16px;color:var(--muted)}
 .pubs-note a{color:var(--teal);font-weight:600}
