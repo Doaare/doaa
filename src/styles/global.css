@@ -305,7 +305,7 @@ p{margin:0 0 18px}
 .contact h2{color:#fff}
 .contact .sec-num{color:var(--heat)}
 .contact .sec-head::after{background:rgba(255,255,255,.18)}
-.contact .lede{color:#AEC0D4}
+.contact .lede{color:#AEC0D4;max-width:none}
 .cgrid{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(28px,5vw,60px);margin-top:30px}
 @media (max-width:840px){.cgrid{grid-template-columns:1fr}}
 .cblock h3{font-family:var(--mono);font-size:11px;letter-spacing:.17em;text-transform:uppercase;color:var(--heat);margin:0 0 14px;font-weight:500}
