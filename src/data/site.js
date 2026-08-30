@@ -31,7 +31,7 @@ export const hero = {
   eyebrow: 'Human–Computer Interaction · NeuroIS · AI',
   name: 'Doaa Alrefaei',
   suffix: ', PhD',
-  tagline: 'Human-centered AI and innovation Researcher',
+  tagline: 'Human-Centered AI and Innovation Researcher',
   affiliations: [
     {
       role: 'Assistant Professor of Management Information Systems',
