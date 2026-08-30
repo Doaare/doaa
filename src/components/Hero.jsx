@@ -64,8 +64,6 @@ export default function Hero() {
           </a>
         </div>
       </div>
-
-      <div className="legend">{hero.legend}</div>
     </section>
   )
 }

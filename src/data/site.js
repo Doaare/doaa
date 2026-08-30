@@ -46,7 +46,6 @@ export const hero = {
       org: 'Center of Research Excellence in Artificial Intelligence and Data Science, King Abdulaziz University',
     },
   ],
-  legend: 'Fig. — scanpath: fixation radius ∝ dwell duration',
 }
 
 // Hero scanpath geometry. Fixation radius encodes dwell duration.
