@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <section id="contact" className="contact">
       <div className="wrap">
-        <SectionHead num="09">Contact</SectionHead>
+        <SectionHead>Contact</SectionHead>
         <p className="lede">{contact.lede}</p>
         <div className="cgrid">
           <div className="cblock">

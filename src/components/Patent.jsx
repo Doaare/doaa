@@ -23,7 +23,7 @@ export default function Patent() {
       </svg>
 
       <div className="wrap">
-        <SectionHead num="03">Patent</SectionHead>
+        <SectionHead>Patent</SectionHead>
         <p className="patent-title">{patent.title}</p>
         <p className="patent-lede">{patent.lede}</p>
         <div className="patent-meta">

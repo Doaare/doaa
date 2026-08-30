@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section id="about">
       <div className="wrap">
-        <SectionHead num="01">About</SectionHead>
+        <SectionHead>About</SectionHead>
 
         <div className="bio-body">
           {bio.map((para, i) => (

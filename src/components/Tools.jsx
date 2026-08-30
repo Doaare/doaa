@@ -5,7 +5,7 @@ export default function Tools() {
   return (
     <section id="tools">
       <div className="wrap">
-        <SectionHead num="08">Teaching &amp; research tools</SectionHead>
+        <SectionHead>Teaching &amp; research tools</SectionHead>
         <div className="tools-grid">
           {tools.map((t) => (
             <div className="tool" key={t.name}>

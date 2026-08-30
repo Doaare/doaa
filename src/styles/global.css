@@ -105,7 +105,6 @@ h1{
 /* ---------- sections ---------- */
 section{padding-block:clamp(56px,8vw,92px)}
 .sec-head{display:flex;align-items:baseline;gap:16px;margin-bottom:34px}
-.sec-num{font-family:var(--mono);font-size:12px;color:var(--teal);letter-spacing:.1em;padding-top:6px}
 h2{
   font-family:var(--display);font-weight:400;font-size:clamp(28px,4.4vw,40px);
   letter-spacing:-.018em;margin:0;line-height:1.14;
@@ -245,7 +244,6 @@ p{margin:0 0 18px}
 .patent .wrap{position:relative;z-index:2}
 .patent-mark{position:absolute;right:-40px;top:50%;transform:translateY(-50%);z-index:1;opacity:.55;pointer-events:none}
 @media (max-width:900px){.patent-mark{display:none}}
-.patent .sec-num{color:var(--heat)}
 .patent .sec-head::after{background:rgba(255,255,255,.20)}
 .patent h2{color:var(--heat)}
 .patent-title{
@@ -296,7 +294,6 @@ p{margin:0 0 18px}
 /* ---------- contact ---------- */
 .contact{background:var(--ink);color:#E6ECF4}
 .contact h2{color:#fff}
-.contact .sec-num{color:var(--heat)}
 .contact .sec-head::after{background:rgba(255,255,255,.18)}
 .contact .lede{color:#AEC0D4;max-width:none}
 .cgrid{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(28px,5vw,60px);margin-top:30px}

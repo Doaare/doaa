@@ -16,7 +16,7 @@ export default function Research() {
   return (
     <section id="research" className="tinted">
       <div className="wrap">
-        <SectionHead num="02">Research</SectionHead>
+        <SectionHead>Research</SectionHead>
         <div className="pillars">
           {pillars.map((p, i) => (
             <Pillar key={p.title} title={p.title} body={p.body} index={i} />

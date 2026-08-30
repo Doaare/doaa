@@ -5,7 +5,7 @@ export default function Teaching() {
   return (
     <section id="teaching">
       <div className="wrap">
-        <SectionHead num="06">Teaching</SectionHead>
+        <SectionHead>Teaching</SectionHead>
         <p className="lede lede-gap-sm">
           Courses built around ethical innovation and human-centered design, at both graduate and
           undergraduate levels.

@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <section id="innovation" className="tinted">
       <div className="wrap">
-        <SectionHead num="05">Research projects</SectionHead>
+        <SectionHead>Research projects</SectionHead>
         <p className="lede lede-gap lede-wide">
           Studies and systems developed with the UXDM Lab at WPI and clinical partners at UMass
           Memorial Medical Center.

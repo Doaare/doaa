@@ -17,7 +17,7 @@ export default function Publications() {
   return (
     <section id="publications">
       <div className="wrap">
-        <SectionHead num="04">Selected publications</SectionHead>
+        <SectionHead>Selected publications</SectionHead>
 
         <div className="pubs">
           {publications.map((pub) => (

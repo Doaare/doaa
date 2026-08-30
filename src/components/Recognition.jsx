@@ -5,7 +5,7 @@ export default function Recognition() {
   return (
     <section id="recognition" className="tinted">
       <div className="wrap">
-        <SectionHead num="07">Recognition</SectionHead>
+        <SectionHead>Recognition</SectionHead>
         <ul className="awards">
           {awards.map((a) => (
             <li className="award" key={a.year + a.name}>
